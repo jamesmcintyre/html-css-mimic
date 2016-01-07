@@ -1,0 +1,414 @@
+
+
+body {
+  margin: 0;
+}
+
+
+
+
+.landingarea {
+  background: url(http://d27bqd9qyr2lqg.cloudfront.net/2014/home/header-brogramming-niall-phil.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  /*top: 0;
+  left: 0;*/
+  /*min-width: 100%;*/
+  height: 100%;
+  background-color: black;
+}
+
+.bgoverlay {
+  background: rgba(0,0,0,0.45);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+
+.topnav {
+  /*width: 100%;*/
+  height: 80px;
+  background: none,-webkit-linear-gradient(top, rgba(20,17,23,0.9) 10%, rgba(20,17,23,0) 80%);
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  padding-top: 6vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 12vh;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  color: white;
+  float: left;
+}
+.middlenav {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  position: relative;
+
+}
+
+.mainnav {
+  position: relative;
+  margin-top: 0;
+}
+
+li.navlinks {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+li.navlinks p {
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  font-weight:300;
+  font-size: 9pt;
+  top-padding: 7px;
+}
+
+.rightlink {
+  display: inline-block;
+  color: rgb(255, 251, 154);
+  float: right;
+  font-size: 13pt;
+
+}
+
+
+.landingfloat {
+  text-align: center;
+  display: block;
+  max-resolution: 6vh;
+}
+
+.thefloat {
+  position: relative;
+}
+
+.thefloat h1 {
+  font-size: 30pt;
+  color: white;
+  font-family: helvetica;
+  letter-spacing: 6px;
+  font-weight: 600;
+}
+
+#experts {
+  font-size: 15pt;
+  font-weight: 900;
+  color: white;
+  font-family: serif;
+  letter-spacing: 3px;
+  padding-top: 2vh;
+}
+
+.thefloat h2 {
+  font-size: 36pt;
+  font-weight: 200;
+  color: white;
+  font-family: serif;
+  letter-spacing: 4px;
+  padding-right: 17vw;
+  padding-left: 17vw;
+  margin-top: 0px;
+
+}
+
+#learnmore {
+  height: 50px;
+  width: 195px;
+  border: solid rgb(255, 251, 154) 2px;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin-top: 8vh;
+  margin-bottom: 30vh;
+}
+
+#learnmore p {
+  color: rgb(255, 251, 154);
+  font-family: sans-serif;
+  font-size: 13pt;
+  margin: 0px;
+  vertical-align: middle;
+  padding-top: 14px;
+}
+
+.floatvideo {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.floatit {
+  display: inline;
+  position: relative;
+  text-align: center;
+
+}
+
+.floatitiframe {
+  display: inline-block;
+  position: relative;
+  margin-top: 12vh;
+  margin-bottom: 12vh;
+  width: 80vw;
+  height: 80vh;
+}
+
+
+.aboutus {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 55px;
+}
+
+
+
+
+
+.aboutus h1 {
+  font-size: 11pt;
+  font-weight: 600;
+  color: rgb(186, 186, 186);
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  padding-top: 2vh;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+#aboutrumble p {
+  font-size: 36pt;
+  font-weight: 200;
+  color: black;
+  font-family: serif;
+  letter-spacing: 4px;
+  padding-right: 17vw;
+  padding-left: 17vw;
+
+}
+
+.aboutpanels {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+
+}
+
+.aboutpanel {
+  display: inline-block;
+  width: 27vw;
+  margin-right: 25px;
+  margin-left: 25px;
+  /*background-color: grey;*/
+}
+
+
+.icon {
+  height: 128px;
+  width: 128px;
+  display: inline-block;
+}
+
+.icon img {
+  height: 100%;
+  width: 100%;
+  display: inline;
+  position: relative;
+}
+
+
+.aboutpanel {
+  float: left;
+}
+
+.aboutpanel h3 {
+  font-size: 19pt;
+  font-weight: 900;
+  color: black;
+  font-family: serif;
+  letter-spacing: 1px;
+  padding-top: 2vh;
+}
+
+
+.aboutpanel p {
+  font-size: 17pt;
+  font-weight: 300;
+  color: black;
+  font-family: serif;
+
+}
+
+
+.services {
+  width: 100%;
+  background-color: #eaeaec;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 55px;
+}
+
+.servicespanels {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  /*padding-left: 5vw;
+  padding-right: 5vw;*/
+
+}
+
+.servicespanel {
+  display: inline-block;
+  width: 21vw;
+  float: left;
+  margin-right: 2vw;
+  /*margin-right: 5px;
+  margin-left: 5px;*/
+  /*background-color: grey;*/
+}
+
+.servicespanel img{
+  width: 100%;
+}
+
+.servicespanel p {
+  text-align: left;
+}
+
+.servicespanel li {
+  text-align: left;
+  list-style: none;
+}
+
+.services h2 {
+  font-size: 36pt;
+  font-weight: 200;
+  color: black;
+  font-family: serif;
+  letter-spacing: 4px;
+  padding-right: 17vw;
+  padding-left: 17vw;
+
+}
+
+.learnmore {
+  width: 100%;
+  background-color: #249588;
+  text-align: center;
+  display: inline-block;
+  color: white;
+}
+
+.tiles {
+  display: inline-block;
+  width: 33vw;
+  height: 319px;
+  float: left;
+  margin: 0px;
+
+}
+
+.tiles:nth-of-type(1) {
+  background: url(http://d27bqd9qyr2lqg.cloudfront.net/2014/home/projects/project-cover-nuu.jpg) no-repeat center center;
+}
+
+.tiles:nth-of-type(2) {
+  background: url(http://d27bqd9qyr2lqg.cloudfront.net/2014/home/projects/digital-circle-monitor.jpg) no-repeat center center;
+}
+
+.tiles:nth-of-type(3) {
+  background: url(http://d27bqd9qyr2lqg.cloudfront.net/2014/home/projects/yolla-scan.jpg) no-repeat center center;
+}
+
+.tiles:nth-of-type(4) {
+  background: url(http://d27bqd9qyr2lqg.cloudfront.net/2014/home/projects/nitb-app-2.jpg) no-repeat center center;
+}
+
+.tiles:nth-of-type(5) {
+  background: url(http://d27bqd9qyr2lqg.cloudfront.net/2014/home/projects/lisson-gallery.jpg) no-repeat center center;
+}
+
+.tiles:nth-of-type(6) {
+  background: url(http://d27bqd9qyr2lqg.cloudfront.net/2014/home/projects/squarevid-punchbag.jpg) no-repeat center center;
+}
+
+
+
+
+.servicespanel {
+  display: inline-block;
+  width: 21vw;
+  float: left;
+  margin-right: 2vw;
+  /*margin-right: 5px;
+  margin-left: 5px;*/
+  /*background-color: grey;*/
+}
+
+.learnmore h1 {
+  font-size: 22pt;
+  color: white;
+  font-family: helvetica;
+  letter-spacing: 6px;
+  font-weight: 600;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+
+/*.landingoverlay img {
+  width: 100%;
+  height:auto;
+  display: block;
+  z-index: 3;
+
+
+}
+
+.topnav .landingoverlay {
+	display: none;
+	position: relative;
+  z-index: 2;
+  display: block;
+}
+
+.topnav .landingoverlay:before {
+    content: '';
+    position: absolute;
+    background: rgba(0,0,0,0.45);
+  	top: 1px; left: 1px; bottom: 1px; right: 1px;
+    z-index: 3;
+    display: block;
+}
+
+
+
+
+.middleoverlay {
+  width: 100%;
+
+}*/
+
+
+/*.floatit {
+  width: 350px;
+  height: 200px;
+}*/
